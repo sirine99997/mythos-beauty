@@ -1,0 +1,132 @@
+ .box{
+    padding: 20px;
+    width: 550px;
+    height: 50px;
+    margin-left: 460px;
+    
+ }
+ html, body {
+    width: 100%;
+    min-height: 100%;
+    overflow-x: hidden;
+
+.top-bar {
+  position: fixed;     
+  top: 0;               
+  left: 0;              
+  width: 100%;     
+  height: 5%;    
+  background-color: #333; 
+  color: white;        
+  padding: 15px;        
+  font-size: 18px;            
+}
+
+.order-page {
+    font-family: Arial, sans-serif;
+    background: #ae7c9f;
+    padding: 20px;
+}
+.form-container {
+    background: white;
+    width: 450px;
+    max-width: calc(100% - 40px);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px #e2b7cc;
+    margin: 40px auto;
+}
+.form-container h2 {
+    text-align: center;
+    color: #9e1571;
+}
+.form-container label {
+    color: #9e1571;
+    font-weight: bold;
+}
+.form-container input,
+.form-container select {
+    box-sizing: border-box;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #bbb;
+}
+.form-container button {
+    background: #c23570;
+    color: white;
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.form-container button:hover {
+    background: #8e2553;
+}
+.form-container h4 {
+    text-align: center;
+    color: #cb5a8b;
+}
+.form-container a {
+    color: #9e1571;
+}
+.form-container a:hover {
+    color: #000;
+}
+.product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 30px;
+    margin: 0 15px 35px;
+}
+.product-card {
+    flex: 1 1 140px;
+    min-width: 0;
+    text-align: left;
+}
+.product-card .product-image {
+    display: block;
+    width: 200px !important;
+    max-width: 100%;
+    height: 280px !important;
+    object-fit: contain;
+    margin: 0 auto 12px !important;
+}
+.product-card .p1 {
+    margin: 0 !important;
+    line-height: 1.45;
+}
+.product-card .p1 strong {
+    display: block;
+    margin-bottom: 8px;
+}
+.details-button {
+    display: inline-block;
+    margin: 4px 0 10px;
+    padding: 6px 12px;
+    border: 1px solid #6f4863;
+    border-radius: 3px;
+    background: #b397ab;
+    color: #3b2d2f;
+    cursor: pointer;
+    font: inherit;
+}
+.details-button:hover {
+    background: #6f4863;
+    color: #fff;
+}
+.product-details[hidden] {
+    display: none !important;
+}
+.product-details {
+    margin-top: 4px;
+}
+
+html {
+    scroll-behavior: smooth;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cosmetics Order Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="order-page">
+    <div class="form-container">
+        <h2>Cosmetics Order Form</h2>
+        <form>
+            <label>Full Name</label>
+            <input type="text" placeholder="Enter your name" required>
+
+            <label>Email</label>
+            <input type="email" placeholder="example@mail.com" required>
+
+            <label>Phone Number</label>
+            <input type="text" placeholder="+216 …" required>
+
+            <label>Choose Product</label>
+            <select required>
+                <option>Rare Beauty Blush</option>
+                <option>Dior Lip Glow Oil</option>
+                <option>Kiko Lip Gloss</option>
+                <option>Huda Beauty Foundation</option>
+                <option>Fenty Highlighter</option>
+            </select>
+
+            <label>Shade / Color</label>
+            <input type="text" placeholder="Example: Pink, 250N, Chocolate…">
+
+            <label>Quantity</label>
+            <input type="number" min="1" value="1">
+
+            <label>Payment Method</label>
+            <select>
+                <option>Cash on Delivery</option>
+                <option>Bank Transfer</option>
+                <option>E-Dinar</option>
+            </select>
+
+            <label>Delivery Option</label>
+            <select>
+                <option>Home Delivery</option>
+                <option>Pickup from Store</option>
+            </select>
+
+            <button type="submit">Place Order</button>
+            <h4><a href="index.html">HOME</a></h4>
+        </form>
+    </div>
+</body>
+</html>
